@@ -38,16 +38,17 @@ export default function LeaseAgreementViewer() {
   return (
     <div className="h-screen flex flex-col max-w-md mx-auto   bg-white">
       <div className="flex-grow overflow-auto p-4">
-        <div className="max-w-3xl mx-auto bg-white shadow-lg rounded-lg">
+        <div className="max-w-3xl mx-auto bg-white  rounded-lg">
           <div className="p-6">
-            <h1 className="text-xl font-bold mb-4 text-center">Pledge Deed</h1>
+            <h1 className="text-xl font-bold mb-4 text-center underline underline-offset-4">  
+                Pledge Deed </h1>
             <div className="whitespace-pre-wrap font-serif text-sm">
               {documentContent}
             </div>
           </div>
         </div>
       </div>
-      <div className=" pb-4 px-4 text  items-center justify-between">
+      <div className=" pb-12 px-4 text  items-center justify-between ">
         <button className=" w-full  bg-blue-500 text-white py-3 items-center justify-between rounded-md">
           Sign Agreement
         </button>
