@@ -2,7 +2,7 @@ import React from 'react';
 
 const LoanDetail = () => {
   return (
-    <div className="min-h-screen flex justify-center items-center bg-gray-100 ">
+    <div className="min-h-screen flex justify-center items-center  ">
       <div className="w-full max-w-lg bg-white rounded-xl p-6  ">
         {/* Bank Header */}
         <div className="flex items-center mb-6">
@@ -83,3 +83,4 @@ const LoanDetail = () => {
 };
 
 export default LoanDetail;
+
